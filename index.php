@@ -2,18 +2,18 @@
 
 #================================================
 
-define('API_KEY', '7942558293:AAHcAyEz8oFQVg2WgLmoRjq7Y1C_d4PFE5k');
+define('API_KEY', 'your token');
 
-$idbot = 7942558293;
+$idbot = //bot id;
 $userbot = 'vicalinauzbot';
-$umniycoder = 7645885298;
-$owners = array($umniycoder, 6484427846);
-$user = "ali1511";
+$umniycoder = //admin id;
+$owners = array($umniycoder);
+$user = "admin user";
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'mrxlv_vc');
-define('DB_PASS', 'vicali');
-define('DB_NAME', 'mrxlv_vc');
+define('DB_USER', 'db usernamegit ');
+define('DB_PASS', 'db pass');
+define('DB_NAME', 'db name');
 
 $connect = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 mysqli_set_charset($connect, 'utf8mb4');
